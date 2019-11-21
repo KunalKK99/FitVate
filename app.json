@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Fitvate",
+    "slug": "Fitvate",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description": "The best triathlon training app in the world.",
+    "icon": "./assets/fitness.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.Fitvate.exp"
+    },
+    "android": {
+      "package": "org.Fitvate.exp"
+    }
+  }
+}
+
